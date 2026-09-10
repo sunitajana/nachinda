@@ -1,0 +1,1171 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body{
+
+    padding: 0;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+}
+
+.sunita-main .background{
+
+    /* background-image: url(/user/images/rusult.jpg); */
+
+    background-size: cover;
+
+   
+
+}
+
+.sunita-main .background .rgba{
+
+    background: rgba(0,0,0,0.7);
+
+}
+
+.sunita-main .background .rgba .heading{
+
+    padding:  8% 3%;
+
+    color: white;
+
+    font-size: 45.4px;
+
+    text-align: center;
+
+}
+
+.sunita-main .background .rgba .heading h1{
+
+    /* font-family: Bell MT; */
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif !important;
+
+}
+
+ .sunita-main .sunita-main-inner{
+
+ width: 100%;
+
+ height: auto;
+
+ /* margin: 48px 0px; */
+
+}
+
+.sunita-main .sunita-main-inner .content111{
+
+    max-width: 1140px;
+
+    margin: auto;
+
+    text-align: justify;
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+
+    box-shadow: 5px 5px 10px rgb(148, 146, 146);
+
+    /* margin: 2% 9%; */
+
+   
+
+    
+
+}
+
+.sunita-main .sunita-main-inner .content111 .content-section{
+
+    text-align: center;
+
+    /* border: 2px solid red; */
+
+    font-size: 3vmax;
+
+    color: rgb(250, 247, 247);
+
+    font-family: 'Poppins', sans-serif !important;
+
+    background-color: #25588f;
+
+}
+
+.sunita1-section-title{
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.sunita1-section-title h2{
+
+    text-transform: capitalize;
+
+    position: relative;
+
+    padding-bottom: 12px;
+
+    margin-bottom: 18px;
+
+    font-family: 'Poppins', sans-serif !important;
+
+}
+
+.sunita1-section-title h2 span{
+
+    font-weight: 700;
+
+    color: #1f507c;
+
+    font-family:'Poppins', sans-serif !important;
+
+}
+
+.sunita1-section-title h2::before{
+
+    position: absolute;
+
+    left: 50%;
+
+    content: "";
+
+    width: 100px;
+
+    height: 2px;
+
+    background: #666;
+
+    bottom: -1px;
+
+    margin-left: -50px;
+
+}
+
+.sunita1-section-title h2::after{
+
+    position: absolute;
+
+    left: 50%;
+
+    content: "";
+
+    width: 100px;
+
+    height: 1.2px;
+
+    background: #666;
+
+    bottom: -6px;
+
+    margin-left: -63px;
+
+}
+
+.sunita-main .sunita-main-inner .content111 .row{
+
+   
+
+    display: flex;
+
+    margin: 10px 20px;
+
+}
+
+.sunita-main .sunita-main-inner .content111 .row .span4{
+
+    width:32%;
+
+    /* height: 6vh; */
+
+    /* border: 2px solid red; */
+
+}
+
+.sunita-main .sunita-main-inner .content111 .row .span4 .text{
+
+    font-size: 18.8px;
+
+    font-family: 'Poppins', sans-serif !important;
+
+    color: #202020;
+
+}
+
+.sunita-main .sunita-main-inner .content111 .row .span4 .control-group .span44{
+
+    width: 70%;
+
+    /* height: 6vh; */
+
+    padding: 10px 0px;
+
+    font-size: 18px;
+
+    font-family: 'Poppins', sans-serif !important;
+
+    color: #202020;
+
+}
+
+.sunita-main .sunita-main-inner .content111 .row .span4 input{
+
+    width:70%;
+
+    /* height: 6vh; */
+
+    padding: 6px;
+
+}
+
+.sunita-main .sunita-main-inner .content111 .row .span4 input::placeholder{
+
+    font-size: 18px;
+
+    font-family: 'Poppins', sans-serif !important;
+
+    color: #202020;
+
+}
+
+.sunita-main .sunita-main-inner .content111 .button-main{
+
+    width: 100%;
+
+}
+
+.sunita-main .sunita-main-inner .content111 .button-main button{
+
+    width: 100%;
+
+    color: rgb(245, 242, 242);
+
+    background-color: rgb(18, 64, 150);
+
+    /* margin: 20px 0px; */
+
+    height: 50px;
+
+    border: none;
+
+    outline: none;
+
+    cursor: pointer;
+
+    font-family: 'Poppins', sans-serif !important;
+
+    font-size: 18.8px;
+
+}
+
+.sunita-main .sunita-main-inner .content111 .row .span4 em{
+
+    color: rgb(248, 15, 15);
+
+    font-size: 18.8px;
+
+}
+
+@media screen and (max-width:1024px){
+
+    .sunita-main .sunita-main-inner .content111{
+
+        /* max-width: 1140px; */
+
+        /* margin: auto; */
+
+        /* text-align: justify; */
+
+        /* margin-top: 20px;
+
+        margin-bottom: 20px; */
+
+        box-shadow:none;
+
+           
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row-main{
+
+        width: 90%;
+
+        box-shadow: 5px 5px 10px rgb(148, 146, 146);
+
+        margin: auto;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .content-section{
+
+        text-align: center;
+
+        padding: 10px 0px;
+
+        font-size: 23px;
+
+        color: rgb(250, 247, 247);
+
+        font-family: 'Poppins', sans-serif !important;
+
+        background-color: #25588f;
+
+    }
+
+    .sunita-main .sunita-main-inner .section-title{
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+    }
+
+    .sunita-main .sunita-main-inner .section-title h2{
+
+        text-transform: capitalize;
+
+        position: relative;
+
+        padding-bottom: 12px;
+
+        margin-bottom: 18px;
+
+        font-family: 'Poppins', sans-serif !important;
+
+    }
+
+    .sunita-main .sunita-main-inner .section-title h2 span{
+
+        color: #1f507c;
+    font-family:'Poppins', sans-serif !important;
+
+    }
+
+    /* .sunita-main .sunita-main-inner .section-title h2::before{
+
+        position: absolute;
+
+        left: 50%;
+
+        content: "";
+
+        width: 100px;
+
+        height: 1.5px;
+
+        background: #666;
+
+        bottom: -1px;
+
+        margin-left: -50px;
+
+    }
+
+    .sunita-main .sunita-main-inner .section-title h2::after{
+
+        position: absolute;
+
+        left: 50%;
+
+        content: "";
+
+        width: 100px;
+
+        height: 1px;
+
+        background: #666;
+
+        bottom: -6px;
+
+        margin-left: -63px;
+
+    } */
+
+    .sunita-main .sunita-main-inner .content111 .row{
+
+       display: flex;
+
+        margin: 10px 0px;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4{
+
+        width:32%;
+
+        /* border: 2px solid red; */
+
+        margin: 10px 0px;
+
+        padding: 0px 10px 0px 80px;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4 .text{
+
+        font-size: 18.8px;
+
+        font-family:  'Poppins', sans-serif !important;
+
+        color: #202020;
+
+        /* border: 2px solid green; */
+
+        margin: 10px 0px;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4 .control-group .span44{
+
+        width: 70%;
+
+        padding: 10px 0px;
+
+        font-size: 18px;
+
+        font-family: 'Poppins', sans-serif !important;
+
+        color: #202020;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4 input{
+
+        width:70%;
+
+        padding: 6px;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4 input::placeholder{
+
+        font-size: 18px;
+
+        font-family: 'Poppins', sans-serif !important;
+
+        color: #202020;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .button-main{
+
+        width: 100%;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .button-main button{
+
+        width: 100%;
+
+        color: rgb(245, 242, 242);
+
+        background-color: rgb(18, 64, 150);
+
+        height: 50px;
+
+        border: none;
+
+        outline: none;
+
+        cursor: pointer;
+
+        font-family: 'Poppins', sans-serif !important;
+
+        font-size: 18.8px;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4 em{
+
+        color: rgb(248, 15, 15);
+
+        font-size: 18.8px;
+
+    }
+
+    
+
+}
+@media screen and (max-width:1440px){
+
+    .sunita-main .sunita-main-inner .content111{
+
+        /* max-width: 1140px; */
+
+        /* margin: auto; */
+
+        /* text-align: justify; */
+
+        /* margin-top: 20px;
+
+        margin-bottom: 20px; */
+
+        box-shadow:none;
+
+           
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row-main{
+
+        width: 90%;
+
+        box-shadow: 5px 5px 10px rgb(148, 146, 146);
+
+        margin: auto;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .content-section{
+
+        text-align: center;
+
+        padding: 10px 0px;
+
+        font-size: 23px;
+
+        color: rgb(250, 247, 247);
+
+        font-family: 'Poppins', sans-serif !important;
+
+        background-color: #25588f;
+
+    }
+
+    .sunita-main .sunita-main-inner .section-title{
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+    }
+
+    .sunita-main .sunita-main-inner .section-title h2{
+
+        text-transform: capitalize;
+
+        position: relative;
+
+        padding-bottom: 12px;
+
+        margin-bottom: 18px;
+
+        font-family: 'Poppins', sans-serif !important;
+
+    }
+
+    .sunita-main .sunita-main-inner .section-title h2 span{
+
+        color: #1f507c;
+    font-family:'Poppins', sans-serif !important;
+
+    }
+
+    /* .sunita-main .sunita-main-inner .section-title h2::before{
+
+        position: absolute;
+
+        left: 50%;
+
+        content: "";
+
+        width: 100px;
+
+        height: 1.5px;
+
+        background: #666;
+
+        bottom: -1px;
+
+        margin-left: -50px;
+
+    }
+
+    .sunita-main .sunita-main-inner .section-title h2::after{
+
+        position: absolute;
+
+        left: 50%;
+
+        content: "";
+
+        width: 100px;
+
+        height: 1px;
+
+        background: #666;
+
+        bottom: -6px;
+
+        margin-left: -63px;
+
+    } */
+
+    .sunita-main .sunita-main-inner .content111 .row{
+
+       display: flex;
+
+        margin: 10px 0px;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4{
+
+        width:32%;
+
+        /* border: 2px solid red; */
+
+        margin: 10px 0px;
+
+        padding: 0px 10px 0px 80px;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4 .text{
+
+        font-size: 18.8px;
+
+        font-family: 'Poppins', sans-serif !important;
+
+        color: #202020;
+
+        /* border: 2px solid green; */
+
+        margin: 10px 0px;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4 .control-group .span44{
+
+        width: 70%;
+
+        padding: 10px 0px;
+
+        font-size: 18px;
+
+        font-family: 'Poppins', sans-serif !important;
+
+        color: #202020;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4 input{
+
+        width:70%;
+
+        padding: 6px;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4 input::placeholder{
+
+        font-size: 18px;
+
+        font-family: 'Poppins', sans-serif !important;
+
+        color: #202020;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .button-main{
+
+        width: 100%;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .button-main button{
+
+        width: 100%;
+
+        color: rgb(245, 242, 242);
+
+        background-color: rgb(18, 64, 150);
+
+        height: 50px;
+
+        border: none;
+
+        outline: none;
+
+        cursor: pointer;
+
+        font-family: 'Poppins', sans-serif !important;
+
+        font-size: 18.8px;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4 em{
+
+        color: rgb(248, 15, 15);
+
+        font-size: 18.8px;
+
+    }
+}
+@media screen and (max-width:768px){
+
+    .sunita-main .sunita-main-inner .content111{
+
+        /* max-width: 1140px; */
+
+        /* margin: auto; */
+
+        /* text-align: justify; */
+
+        /* margin-top: 20px;
+
+        margin-bottom: 20px; */
+
+        box-shadow:none;
+
+           
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row-main{
+
+        width: 90%;
+
+        box-shadow: 5px 5px 10px rgb(148, 146, 146);
+
+        margin: auto;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .content-section{
+
+        text-align: center;
+
+        padding: 10px 0px;
+
+        font-size: 23px;
+
+        color: rgb(250, 247, 247);
+
+        font-family: 'Poppins', sans-serif !important;
+
+        background-color: #25588f;
+
+    }
+
+    .sunita-main .sunita-main-inner .section-title{
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+    }
+
+    .sunita-main .sunita-main-inner .section-title h2{
+
+        text-transform: capitalize;
+
+        position: relative;
+
+        padding-bottom: 12px;
+
+        margin-bottom: 18px;
+
+        font-family: 'Poppins', sans-serif !important;
+
+    }
+
+    .sunita-main .sunita-main-inner .section-title h2 span{
+
+        color: #1f507c;
+        font-family:'Poppins', sans-serif !important;
+
+    }
+
+    /* .sunita-main .sunita-main-inner .section-title h2::before{
+
+        position: absolute;
+
+        left: 50%;
+
+        content: "";
+
+        width: 100px;
+
+        height: 1.5px;
+
+        background: #666;
+
+        bottom: -1px;
+
+        margin-left: -50px;
+
+    }
+
+    .sunita-main .sunita-main-inner .section-title h2::after{
+
+        position: absolute;
+
+        left: 50%;
+
+        content: "";
+
+        width: 100px;
+
+        height: 1px;
+
+        background: #666;
+
+        bottom: -6px;
+
+        margin-left: -63px;
+
+    } */
+
+    .sunita-main .sunita-main-inner .content111 .row{
+
+        height: fit-content;
+
+        flex-direction: column;
+
+        margin: 10px 0px;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4{
+
+        width:99%;
+
+        /* border: 2px solid red; */
+
+        margin: 10px 0px;
+
+        padding: 0px 10px 0px 160px;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4 .text{
+
+        font-size: 18.8px;
+
+        font-family: 'Poppins', sans-serif !important;
+
+        color: #202020;
+
+        /* border: 2px solid green; */
+
+        margin: 10px 0px;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4 .control-group .span44{
+
+        width: 70%;
+
+        padding: 10px 0px;
+
+        font-size: 18px;
+
+        font-family:  'Poppins', sans-serif !important;
+
+        color: #202020;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4 input{
+
+        width:70%;
+
+        padding: 6px;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4 input::placeholder{
+
+        font-size: 18px;
+
+        font-family:  'Poppins', sans-serif !important;
+
+        color: #202020;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .button-main{
+
+        width: 100%;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .button-main button{
+
+        width: 100%;
+
+        color: rgb(245, 242, 242);
+
+        background-color: rgb(18, 64, 150);
+
+        height: 50px;
+
+        border: none;
+
+        outline: none;
+
+        cursor: pointer;
+
+        font-family:  'Poppins', sans-serif !important;
+
+        font-size: 18.8px;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4 em{
+
+        color: rgb(248, 15, 15);
+
+        font-size: 18.8px;
+
+    }
+
+    
+
+}
+
+@media screen and (max-width:500px){
+
+    .sunita-main .sunita-main-inner .content111{
+
+        /* max-width: 1140px; */
+
+        /* margin: auto; */
+
+        /* text-align: justify; */
+
+        /* margin-top: 20px;
+
+        margin-bottom: 20px; */
+
+        box-shadow:none;
+
+           
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row-main{
+
+        width: 90%;
+
+        box-shadow: 5px 5px 10px rgb(148, 146, 146);
+
+        margin: auto;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .content-section{
+
+        text-align: center;
+
+        padding: 10px 0px;
+
+        font-size: 23px;
+
+        color: rgb(250, 247, 247);
+
+        font-family:  'Poppins', sans-serif !important;
+
+        background-color: #25588f;
+
+    }
+
+    .sunita-main .sunita-main-inner .section-title{
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+    }
+
+    .sunita-main .sunita-main-inner .section-title h2{
+
+        text-transform: capitalize;
+
+        position: relative;
+
+        padding-bottom: 12px;
+
+        margin-bottom: 18px;
+
+        font-family: 'Poppins', sans-serif !important;
+
+    }
+
+    .sunita-main .sunita-main-inner .section-title h2 span{
+
+        color: #1f507c;
+        font-family:'Poppins', sans-serif !important;
+    }
+
+    /* .sunita-main .sunita-main-inner .section-title h2::before{
+
+        position: absolute;
+
+        left: 50%;
+
+        content: "";
+
+        width: 100px;
+
+        height: 1.5px;
+
+        background: #666;
+
+        bottom: -1px;
+
+        margin-left: -50px;
+
+    }
+
+    .sunita-main .sunita-main-inner .section-title h2::after{
+
+        position: absolute;
+
+        left: 50%;
+
+        content: "";
+
+        width: 100px;
+
+        height: 1px;
+
+        background: #666;
+
+        bottom: -6px;
+
+        margin-left: -63px;
+
+    } */
+
+    .sunita-main .sunita-main-inner .content111 .row{
+
+        height: fit-content;
+
+        flex-direction: column;
+
+        margin: 10px 0px;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4{
+
+        width:99%;
+
+        /* border: 2px solid red; */
+
+        margin: 10px 0px;
+
+        padding: 0px 10px 0px 70px;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4 .text{
+
+        font-size: 18.8px;
+
+        font-family:  'Poppins', sans-serif !important;
+
+        color: #202020;
+
+        /* border: 2px solid green; */
+
+        margin: 10px 0px;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4 .control-group .span44{
+
+        width: 70%;
+
+        padding: 10px 0px;
+
+        font-size: 18px;
+
+        font-family:  'Poppins', sans-serif !important;
+
+        color: #202020;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4 input{
+
+        width:70%;
+
+        padding: 6px;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4 input::placeholder{
+
+        font-size: 18px;
+
+        font-family:  'Poppins', sans-serif !important;
+
+        color: #202020;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .button-main{
+
+        width: 100%;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .button-main button{
+
+        width: 100%;
+
+        color: rgb(245, 242, 242);
+
+        background-color: rgb(18, 64, 150);
+
+        height: 50px;
+
+        border: none;
+
+        outline: none;
+
+        cursor: pointer;
+
+        font-family:  'Poppins', sans-serif !important;
+
+        font-size: 18.8px;
+
+    }
+
+    .sunita-main .sunita-main-inner .content111 .row .span4 em{
+
+        color: rgb(248, 15, 15);
+
+        font-size: 18.8px;
+
+    }
+
+    
+
+}

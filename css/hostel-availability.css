@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+.main .back{
+    background-image:url(/user/images/host.jpg);
+    background-size: cover;  
+}
+.main .back .rgba{
+    background: rgba(0,0,0,0.7);
+}
+.main .back .rgba .heading{
+    padding: 8% 3%;
+    color: white;
+    font-size: 1.8vmax;
+    text-align: center;
+    font-family: 'Poppins', sans-serif !important;
+}
+.main .back .rgba .heading h1{
+    /* font-size: 45.4px; */
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 700;
+}
+
+.section-title h2{
+    margin-top: 2%;
+}
+.jit_main3 .jit_parent{
+    max-width: 1340px;
+    margin: auto;
+    display: flex;  
+}
+.jit_img_main_div{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+   border-radius: 20px;
+   margin:auto;
+   padding-bottom: 43px;
+ 
+}
+.jit_img_main_div .jit_ga1{
+    width: 313px;
+    height:420px;
+     border-radius:15px 15px 15px 15px;  
+     margin: 10px;
+    transition:2s;
+    box-shadow: 0px 10px 35px -10px rgba(0,0,0,0.5);
+    overflow:hidden;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+ 
+.jit_ga1 img{
+    width:100%;
+    height:82%;
+    border-radius: 15px 15px 0px 0px;
+    transition:2s;
+
+}
+.jit_ga1:hover{
+    scale:1.1; 
+    box-shadow: 0px 10px 30px -8px rgba(140, 139, 139, 0.5);
+}
+.jit_img_main_div .jit_ga1 .jit_text{
+    font-size: 22px;
+    padding-left:9px;
+    color: rgb(86, 84, 84);
+    margin-top: 4%;
+    color: rgb(31 80 124);
+}
+
+.jit_img_main_div .jit_ga1 .jit_text1{
+
+    font-size: 20px;
+    /* color: rgb(86, 84, 84); */
+  
+}
+@media(max-width:850px){
+    .jit_img_main_div .jit_ga1{
+        width: 363px;
+        height:420px;
+         border-radius:15px 15px 15px 15px;  
+         margin: 10px;
+        transition:2s;
+        box-shadow: 0px 10px 25px -10px rgba(0,0,0,0.5);
+        overflow:hidden;
+        margin-top: 20px;
+    
+    }
+    
+}
+@media(max-width:450px){
+    .jit_img_main_div .jit_ga1{
+        width: 406px;
+        height:420px;
+         border-radius:15px 15px 15px 15px;  
+         margin: 10px;
+        transition:2s;
+        box-shadow: 0px 10px 25px -10px rgba(0,0,0,0.5);
+        overflow:hidden;
+        margin-top: 20px;
+    
+    }
+    
+}
+

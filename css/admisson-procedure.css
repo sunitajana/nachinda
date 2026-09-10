@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.jit_contaner{
+    display: flex;
+}
+.jit1_main .background{
+    background-image: url();
+    background-size: cover;
+   
+}
+.jit1_main .background .rgba{
+    background: rgba(0,0,0,0.4);
+}
+
+
+
+.jit1_main .background .rgba .heading h1{
+    font-size: 45.4px;
+
+}
+.background .rgba .heading{
+    padding:  8% 3%;
+    color: white;
+    font-size: 1.8vmax;
+    text-align: center;
+}
+.jit_paragrap{
+    font-size: 3vmin;
+    font-size: 3vmin;
+    line-height:1.8;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif !important;
+    /* font-size: 3vmin;
+    line-height:1.2;
+    letter-spacing: 1px;
+    font-family: lora;
+    color: #202020;
+    font-family: "lora";
+    font-family: bell-MT; */
+    
+}
+.jit1_main{
+    margin-top:48px;
+}
+
+
+.jit_main1 .jit_parent{
+    max-width: 1140px;
+    margin: auto;
+}
+.pracedure_heading h1{
+    text-align: center;
+    color: rgb(10, 10, 114);
+    font-size: 6vh;
+    margin-top:48px;
+    
+}
+.jit_contaner .jit_notice{
+    width:25%;
+   margin: 0vw 2vw;
+}
+ .jit_contaner .jit_notice .jit_botton_heading{
+    height:10vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: rgb(29, 29, 178);
+    color: white;
+    font-size: 1.3vmax;
+ 
+}
+
+ .jit_contaner .jit_notice .jit_button1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background: rgb(189, 189, 189);
+   height: 8vh;
+
+}
+ .jit_contaner .jit_notice a{
+    text-decoration: none;
+    color: black;
+    font-size:1.5vmax;  
+}
+ 
+ .jit_contaner .jit_notice .jit_button1:hover{
+    background: rgb(47, 47, 194);
+    color: aliceblue;
+    transition: .5s;
+
+}
+
+
+ .jit_contaner .jit_paragrap{
+    width: 73%;
+    font-size: 21px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,318 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.urmila-main .urmila-section1 .missions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+
+    padding-top: 100px;
+
+    background: linear-gradient(#1f507c,#135ca0 50%,#fff 50%,#fff 100%);
+  
+}
+.urmila-main .urmila-section1 .missions .in-mission{
+    flex-wrap: wrap;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.urmila-main .urmila-section1 .missions .in-mission .boxx{
+    position: relative;
+
+    width: 370px;
+
+    height: auto;
+
+    background: #fff;
+
+    padding: 90px 40px 40px 40px;
+
+    box-shadow: 0 15px 45px rgba(0,0,0,.1);
+
+}
+.urmila-main .urmila-section1 .missions .in-mission .boxx:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1f507c;
+
+    background: -webkit-linear-gradient(to bottom, #1f507c, #135ca0);
+
+    background: linear-gradient(to bottom, #1f507c, #135ca0);
+
+    transform: scaleY(0);
+    transform-origin: top;
+    transition:transform 0.5s;
+}
+.urmila-main .urmila-section1 .missions .in-mission .boxx:hover:before{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+.urmila-main .urmila-section1 .missions .in-mission .boxx h2 i{
+
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    font-size: 60px;
+    font-weight: 800;
+    z-index: 1;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+.urmila-main .urmila-section1 .missions .in-mission .boxx:hover h2 i{
+    opacity: 1;
+    color: #fff;
+    transform: translateY(-10px);
+}
+.urmila-main .urmila-section1 .missions .in-mission .boxx h3{
+    position: relative;
+    font-size: 1.5em;
+    z-index: 2;
+    color: #333;
+    transition: 0.5s;
+
+}
+.urmila-main .urmila-section1 .missions .in-mission .boxx p{
+    position: relative;
+    z-index: 2;
+    color: #555;
+    transition: 0.5s;
+    font-family:'Poppins', sans-serif !important;
+}
+.urmila-main .urmila-section1 .missions .in-mission .boxx p a{
+    text-decoration: none;
+    color:#555;;
+    /* transition: 1.2s; */
+    word-break: break-word;
+}
+.urmila-main .urmila-section1 .missions .in-mission .boxx:hover p a{
+    color:#fff;;
+    
+}
+.urmila-main .urmila-section1 .missions .in-mission .boxx:hover h3,
+.urmila-main .urmila-section1 .missions .in-mission .boxx:hover p
+{
+    color: #fff;
+    /* font-family:'Poppins', sans-serif !important; */
+}
+
+
+
+.urmila-main .urmila-form-outer h2{
+    color: #000f5c;
+    font-size: 32px;
+}
+.urmila-main .urmila-form-outer{
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+
+.urmila-main .urmila-form-outer input[type="text"]
+{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    /* box-shadow: inset 0 1px 3px #ddd; */
+    outline: none;
+    padding: 2px 7px;
+    font-size: 14px;
+
+    /* margin: 0 5px; */
+}
+.urmila-main .urmila-form-outer input[type="email"],input[type="number"]{
+    width: 94%;
+    height: 40px;
+    outline: none;
+    font-size: 14px;
+    padding: 0 9px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 0 12px;
+}
+.urmila-main .urmila-form-outer input[type="number"]{
+    margin: 0 22px;
+}
+.urmila-main .urmila-form-outer textarea{
+    width: 100%;
+    height: 70px;
+    outline: none;
+    font-size: 14px;
+    padding: 0 9px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.urmila-main .urmila-form-outer .input-outer{
+    line-height: 4;
+}
+.urmila-main .urmila-form-outer .form-group{
+    display: flex;
+}
+.urmila-main .urmila-form-outer .group{
+    width: 100%;
+}
+.urmila-main .urmila-form-outer input[type="submit"]{
+    height: 44px;
+    width: 150px;
+    outline: none;
+    font-size: 18px;
+    padding: 5px 17px;
+    border-radius: 29px;
+    border: none;
+    background-color: #ff7a41;
+    color: white;
+    word-spacing: 4px;
+    cursor: pointer;
+}
+.urmila-main .urmila-form-outer input[type="submit"]:hover{
+    background-color: rgb(1, 1, 86);
+    transition:0.5s;
+    transition-timing-function: ease;
+}
+
+
+@media(max-width:800px){
+    .urmila-main .urmila-section1 .missions{
+        padding-top: 100px;
+    }
+    .urmila-main .urmila-form-outer{
+        width: 80%;
+        margin: auto;
+        margin-top: 735px;
+        margin-bottom: 30px;
+    }
+    .urmila-main .urmila-section1 .missions .in-mission{
+        margin-top:645px;
+    }
+    .urmila-main .urmila-section1 .missions .in-mission .boxx{
+      margin-top:25px;
+      width: 615px;
+      height:280px;
+      
+    }
+    .urmila-main .urmila-form-outer input[type="number"]{
+        margin: 0 18px;
+    }
+}
+/* @media(max-width:1500px){
+    .urmila-main .urmila-section1 .missions{
+        padding-top: 100px;
+    }
+    .urmila-main .urmila-form-outer{
+        width: 80%;
+        margin: auto;
+        margin-top: 700px;
+        margin-bottom: 30px;
+    }
+    .urmila-main .urmila-section1 .missions .in-mission{
+        margin-top:665px;
+    }
+    .urmila-main .urmila-section1 .missions .in-mission .boxx{
+      margin-top:25px;
+      width: 835px;
+    }
+} */
+@media(max-width:600px){
+   
+    .urmila-main .urmila-section1 .missions{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 245px;
+    
+        padding-top: 100px;
+      
+    }
+    .urmila-main .urmila-form-outer{
+        width: 80%;
+        margin: auto;
+        margin-top: 980px;
+        margin-bottom: 30px;
+    }
+    .urmila-main .urmila-section1 .missions .in-mission{
+        margin-top:916px;
+    }
+    .urmila-main .urmila-section1 .missions .in-mission .boxx{
+      margin-top:25px;
+      height:358px;
+      width:342px;
+    
+    }
+    .urmila-main .urmila-form-outer input[type="number"]{
+        margin: 0 10px;
+    }
+}
+@media(max-width:400px){
+    .urmila-main .urmila-section1 .missions{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 245px;
+    
+        padding-top: 100px;
+      
+    }
+    .urmila-main .urmila-form-outer{
+        width: 80%;
+        margin: auto;
+        margin-top: 1130px;
+        margin-bottom: 30px;
+    }
+    .urmila-main .urmila-section1 .missions .in-mission{
+        margin-top:1057px;
+    }
+    .urmila-main .urmila-section1 .missions .in-mission .boxx{
+      margin-top:25px;
+      height:400px;
+      width:318px;
+    
+    } 
+    .urmila-main .urmila-form-outer input[type="number"]{
+        margin: 0 9px;
+    }
+}
+@media(max-width:350px){
+    .urmila-main .urmila-section1 .missions{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 245px;
+    
+        padding-top: 100px;
+      
+    }
+    .urmila-main .urmila-form-outer{
+        width: 80%;
+        margin: auto;
+        margin-top: 1130px;
+        margin-bottom: 30px;
+    }
+    .urmila-main .urmila-section1 .missions .in-mission{
+        margin-top:1057px;
+    }
+    .urmila-main .urmila-section1 .missions .in-mission .boxx{
+      margin-top:25px;
+      height:400px;
+    width:256px;
+    } 
+    .urmila-main .urmila-form-outer input[type="number"]{
+        margin: 0 9px;
+    }
+}

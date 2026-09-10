@@ -1,0 +1,547 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+.academic-achievements .main .background{
+
+    background-image: url(/user/images/gallery-bg.jpg);
+
+    background-size: cover;
+
+   
+
+}
+
+.academic-achievements .main .background .rgba{
+
+    background: rgba(0,0,0,0.7);
+
+}
+
+.academic-achievements .main .background .rgba .heading{
+
+    padding:  8% 3%;
+
+    color: white;
+
+    font-size: 45.4px;
+
+    text-align: center;
+
+    
+
+}
+
+.academic-achievements .main .background .rgba .heading h1{
+
+    font-family: 'Poppins', sans-serif !important;
+
+    text-transform: uppercase;
+
+}
+
+.academic-achievements .arif-academic-achievements{
+
+    width: 100%;
+
+    height: auto;
+
+}
+
+/* .arif-academic-achievements .content{
+
+    max-width:1140px;
+
+    background:#e3f5f5;
+
+    margin: auto;
+
+} */
+
+.academic-achievements .arif-academic-achievements .container .section-title{
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    /* text-align: center; */
+
+}
+
+.academic-achievements .arif-academic-achievements .container .section-title h2{
+
+    
+
+    position: relative;
+
+    padding-bottom: 12px;
+
+    margin-bottom: 18px;
+
+    /* font-size: 25px; */
+
+}
+
+.academic-achievements .arif-academic-achievements .container .section-title h2 span{
+
+    color: #1f507c;
+
+}
+
+.academic-achievements .arif-academic-achievements .container .section-title h2::before{
+
+    position: absolute;
+
+    left: 50%;
+
+    content: "";
+
+    width: 100px;
+
+    height: 2px;
+
+    background: #666;
+
+    bottom: -1px;
+
+    margin-left: -50px;
+
+}
+
+.academic-achievements .arif-academic-achievements .container .section-title h2::after{
+
+    position: absolute;
+
+    left: 50%;
+
+    content: "";
+
+    width: 100px;
+
+    height: 2px;
+
+    background: #666;
+
+    bottom: -6px;
+
+    margin-left: -63px;
+
+}
+
+.academic-achievements .arif-academic-achievements .container .main{
+
+    width: 100%;
+
+    height: auto;
+
+    display: flex;
+    
+    padding: 26px 0px 29px;
+
+}
+
+.academic-achievements .arif-academic-achievements .container .main .select-section{
+
+    width: 20%;
+
+    height: auto;
+
+    margin: 0 30px 0px 40px;
+
+}
+
+.academic-achievements .arif-academic-achievements .container .main .select-section .select-album{
+
+    border-radius: 5px;
+
+    /* padding: 20px 0; */
+
+}
+
+.academic-achievements .arif-academic-achievements .container .main .select-section .select-album .select-album-main{
+
+    width: 100%;
+
+    height: 60px;
+
+    background-color: #0d2d62;
+
+    border-color: #0d2d62;
+
+    border-top-left-radius: inherit;
+
+    border-top-right-radius: inherit;
+
+}
+
+.academic-achievements .arif-academic-achievements .container .main .select-section .select-album .select-album-main a{
+
+    text-decoration: none;
+
+}
+
+.academic-achievements .arif-academic-achievements .container .main .select-section .select-album .select-album-main p{
+
+    padding: 15px 0;
+
+    color: #fff;
+
+    font-size: 19px;
+
+    font-family: 'Poppins', sans-serif !important;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    font-weight: 700;
+
+    /* cursor: pointer; */
+
+}
+
+.academic-achievements .arif-academic-achievements .container .main .select-section .select-album .select-album-sub{
+
+    width: 100%;
+
+    padding: 0.75rem 1.25rem;
+
+    background-color: #fff;
+
+    border: 1px solid rgba(0, 0, 0, 0.125);
+
+}
+
+.academic-achievements .arif-academic-achievements .container .main .select-section .select-album .select-album-sub a{
+
+    text-decoration: none;
+
+}
+
+.academic-achievements .arif-academic-achievements .container .main .select-section .select-album .select-album-sub p{
+
+    /* padding: 10px 10px 0 30px; */
+
+    color: #333;
+
+    font-size: 17px;
+
+    font-family: 'Poppins', sans-serif !important;
+
+    cursor: pointer;
+
+    margin-bottom: 0;
+
+}
+
+.academic-achievements .arif-academic-achievements .container .main .select-section .select-album .select-album-sub p:hover{
+
+    color: #1831a2;
+
+    transition: 1s;
+
+}
+
+.academic-achievements .arif-academic-achievements .container .main .home-images{
+
+    width: 80%;
+
+    height: auto;
+
+    margin: 12px 0;
+
+}
+
+.academic-achievements .arif-academic-achievements .container .main .home-images .sub-heading{
+
+    margin: 0 0 0 47px;
+
+    position: relative;
+
+    display: inline-block;
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+
+    color: #0d2d62;
+
+    padding-left: 40px !important;
+
+    padding-right: 40px !important;
+
+}
+
+.arif-academic-achievements .container .main .home-images .sub-heading::before{
+
+    position: absolute;
+
+    content: "";
+
+    top: 13px;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 2px;
+
+    background: #0d2d62;
+
+}
+
+.academic-achievements .arif-academic-achievements .container .main .home-images .sub-heading p{
+
+    position: relative;
+
+    background: #ffffff;
+
+    font-size: 18px;
+
+    padding: 0 2px;
+
+}
+.academic-achievements .arif-academic-achievements .container .main .home-images .sub-heading .for-font-side{
+    font-size: 17px;
+}
+
+.academic-achievements .arif-academic-achievements .container .main .home-images .home-images-content{ 
+
+    flex-wrap: wrap;
+
+    display: flex;
+
+}
+
+.academic-achievements .arif-academic-achievements .container .main .home-images .home-images-content .home-images-inner{
+
+   padding: 10px 13px;
+
+}
+
+.academic-achievements .arif-academic-achievements .container .main .home-images .home-images-content .home-images-inner img{
+
+    width: 290px;
+
+    height: 200px;
+
+    box-shadow: 0px 10px 25px -10px rgba(0,0,0,0.5);
+}
+
+@media(max-width: 768px){
+
+    .academic-achievements .arif-academic-achievements .container .main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+	.academic-achievements .arif-academic-achievements .container .main .select-section{
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .academic-achievements .arif-academic-achievements .container .main .home-images {
+        width: 100%;
+        height: auto;
+        /* padding: 0px 21px 20px 27px; */
+    }
+
+	.gallery .arif .container .main .home-images .gallery{
+
+		display: grid;
+
+		grid-template-columns: auto auto auto;
+
+	}
+    .academic-achievements .arif-academic-achievements .container .main .home-images .home-images-content .home-images-inner img{
+
+        width: 322px;
+    
+        height: 200px;
+    
+        box-shadow: 0px 10px 25px -10px rgba(0,0,0,0.5);
+    }
+
+}
+
+@media(max-width: 600px){
+
+    .academic-achievements .arif-academic-achievements .container .main{
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .academic-achievements .arif-academic-achievements .container .main .home-images {
+        width: 100%;
+        height: auto;
+        /* padding: 0px 17px 20px 27px; */
+    }
+
+    .academic-achievements .arif-academic-achievements .container .main .home-images .home-images-content .home-images-inner img {
+        width: 364px;
+        height: 315px;
+        box-shadow: 0px 10px 25px -10px rgba(0, 0, 0, 0.5);
+    }
+    .academic-achievements .arif-academic-achievements .container .main .home-images .home-images-content .home-images-inner {
+        /* padding: 10px 28px; */
+        padding:10px 18px;
+    }
+
+
+}
+
+@media(max-width: 400px){
+
+.academic-achievements .arif-academic-achievements .container .main .home-images .home-images-content .home-images-inner img {
+    width: 324px;
+    height: 288px;
+    box-shadow: 0px 10px 25px -10px rgba(0, 0, 0, 0.5);
+}
+
+
+.academic-achievements .arif-academic-achievements .container .main .home-images .sub-heading{
+
+    margin: 0 0 0 5px;
+
+    position: relative;
+
+    display: inline-block;
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+
+    color: #0d2d62;
+
+    padding-left: 40px !important;
+
+    padding-right: 40px !important;
+
+}
+
+
+.academic-achievements .arif-academic-achievements .container .main .home-images .home-images-content .home-images-inner img {
+    width: 313px;
+    height: 315px;
+    box-shadow: 0px 10px 25px -10px rgba(0, 0, 0, 0.5);
+}
+.academic-achievements .arif-academic-achievements .container .main .home-images .sub-heading p{
+
+    position: relative;
+
+    background: #ffffff;
+
+    font-size: 20px;
+
+    padding: 0 2px;
+
+}
+
+}
+
+@media(max-width: 375px){
+
+    .academic-achievements .arif-academic-achievements .container .main .home-images .home-images-content .home-images-inner img {
+        width: 324px;
+        height: 288px;
+        box-shadow: 0px 10px 25px -10px rgba(0, 0, 0, 0.5);
+    }
+    
+    
+    .academic-achievements .arif-academic-achievements .container .main .home-images .sub-heading{
+    
+        margin: 0 0 0 5px;
+    
+        position: relative;
+    
+        display: inline-block;
+    
+        letter-spacing: 1px;
+    
+        text-transform: uppercase;
+    
+        color: #0d2d62;
+    
+        padding-left: 40px !important;
+    
+        padding-right: 40px !important;
+    
+    }
+    
+   
+    .academic-achievements .arif-academic-achievements .container .main .home-images .home-images-content .home-images-inner img {
+        width: 295px;
+        height: 315px;
+        box-shadow: 0px 10px 25px -10px rgba(0, 0, 0, 0.5);
+    }
+    .academic-achievements .arif-academic-achievements .container .main .home-images .sub-heading p{
+    
+        position: relative;
+    
+        background: #ffffff;
+    
+        font-size: 19px;
+    
+        padding: 0 2px;
+    
+    }
+    
+    }
+    @media(max-width: 350px){
+
+        .academic-achievements .arif-academic-achievements .container .main .home-images .home-images-content .home-images-inner img {
+            width: 324px;
+            height: 288px;
+            box-shadow: 0px 10px 25px -10px rgba(0, 0, 0, 0.5);
+        }
+        
+        
+        .academic-achievements .arif-academic-achievements .container .main .home-images .sub-heading{
+        
+            margin: 0 0 0 5px;
+        
+            position: relative;
+        
+            display: inline-block;
+        
+            letter-spacing: 1px;
+        
+            text-transform: uppercase;
+        
+            color: #0d2d62;
+        
+            padding-left: 40px !important;
+        
+            padding-right: 40px !important;
+        
+        }
+        
+        
+        .academic-achievements .arif-academic-achievements .container .main .home-images .home-images-content .home-images-inner img {
+            width: 260px;
+            height: 315px;
+            box-shadow: 0px 10px 25px -10px rgba(0, 0, 0, 0.5);
+        }
+        .academic-achievements .arif-academic-achievements .container .main .home-images .sub-heading p{
+        
+            position: relative;
+        
+            background: #ffffff;
+        
+            font-size: 16px;
+        
+            padding: 0 2px;
+        
+        }
+        
+        }

@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.payel-main .payel-main-inner .background{
+    background-image: url(/user/images/About-us.jpg);
+    background-size: cover;
+   
+}
+.payel-main .payel-main-inner .background .rgba{
+    background: rgba(0,0,0,0.7);
+}
+.payel-main .payel-main-inner .background .rgba .heading{
+    padding:  8% 6%;
+    /* font-size: 30px; */
+    font-size: 1.8vmax;
+    text-align: left;
+}
+.payel-main .payel-main-inner .background .rgba .heading h1{
+    font-family: 'Poppins', sans-serif !important;
+    color: #e2e2e2;
+    font-weight: 700;
+}
+
+.payel-main .payel-main-inner .background .rgba .heading .jus .extra_div{
+    display: flex;
+    align-items: center;
+}
+.payel-main .payel-main-inner .background .rgba .heading .jus .extra{
+    width: 15%;
+}
+
+
+.payel-main .payel-main-inner .background .rgba .heading .jus .extra_div .right_div .div_1{
+   height: 3px;
+   width: 173px;
+   background-color: #e2e2e2;
+  
+   margin: 5px 5px;
+}
+
+.payel-main .payel-main-inner .background .rgba .heading .jus .extra_div .right_div .div_2{
+   height: 4px;
+   width: 100px;
+   background-color:#3593ff;
+   margin: 5px 5px;
+}
+
+
+.payel-main .payel-main-inner .background .rgba .heading .jus{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+.section-title h2{
+    text-transform: capitalize;
+    position: relative;
+    padding-bottom: 12px;
+    margin-bottom: 18px;
+    color: #505050;
+    font-family: 'Poppins', sans-serif !important;
+}
+.section-title h2 span{
+    color: #1f507c;
+    font-family: 'Poppins', sans-serif !important;
+}
+.section-title h2::before{
+    position: absolute;
+    left: 50%;
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: #666;
+    bottom: -1px;
+    margin-left: -50px;
+}
+.section-title h2::after{
+    position: absolute;
+    left: 50%;
+    content: "";
+    width: 100px;
+    height: 1.9px;
+    background: #666;
+    bottom: -6px;
+    margin-left: -63px;
+}
+ 
+.pare{
+    background-image: url(/user/images/overview_bg-abt.jpg);
+ }
+
+ .payel-main .about-section .container{
+    padding-bottom: 23px;
+ }
+
+ .payel-main .about-section .container .row1{
+    display: flex;
+    padding: 13px 0px;
+ }
+
+ .payel-main .about-section .container .row1 .image{
+
+    width: 40%;
+ 
+ }
+
+ .payel-main .about-section .container .row1 .image .photo{
+    padding: 9px;
+ }
+ 
+ .payel-main .about-section .container .row1 .image .photo img{
+ 
+    height: 100%;
+ 
+    width: 100%;
+ 
+    border-radius: 5px;
+
+    box-shadow: 2px 2px 5px rgb(139, 139, 139);
+ 
+ }
+ 
+ .payel-main .about-section .container .row1 .para{
+ 
+     padding: 5px 10px 0 0;
+ 
+     width: 70%;
+ 
+ }
+ 
+ .payel-main .about-section .container .row1 .para p{
+ 
+     font-size: 18px;
+ 
+     letter-spacing: 0.1px;
+ 
+     line-height:26px;
+ 
+     text-align: justify;
+ 
+     font-family:  'Poppins', sans-serif !important;
+ 
+     color: #6d6d6d;
+ 
+ }
+
+
+.payel-main .about-section .container .sub_heading .para h2{
+
+    font-size: 24px;
+    font-weight: bold;
+    color: #004788;
+    font-family: 'Poppins', sans-serif !important;
+    padding: 10px 0px;
+}
+.ul_list ul{
+    padding-left: 0;
+}
+.ul_list ul li{
+    padding: 5px 0px;
+}
+.ul_list ul li p{
+    /* font-size: 18px;
+    color: #202020; */
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    line-height: 26px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif !important;
+    color: #6d6d6d;
+
+}
+.abo_section h3{
+    color: #004788;
+    font-size: 25px;
+    padding: 20px 0px;
+    font-family: 'Poppins', sans-serif !important;
+}
+.abo_section p{
+    /* font-size: 18px;
+    letter-spacing: 0.1px;
+    line-height:26px;
+    color: #202020; */
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    line-height: 26px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif !important;
+    color: #6d6d6d;
+}
+@media(max-width:1000px){
+    .payel-main .about-section .container .row1{
+        display: flex;
+        padding: 13px 0px;
+        flex-direction: column-reverse;
+     }
+     .payel-main .about-section .container .row1 .para{
+ 
+        padding: 10px 0px 0 0;
+    
+        width: 100%;
+    
+    }
+    .payel-main .about-section .container .row1 .image .photo img{
+ 
+        height: 80%;
+     
+        width: 100%;
+     
+        border-radius: 5px;
+     
+        /* padding: 10px; */
+     
+     }
+     .payel-main .about-section .container .row1 .image{
+
+        width: 100%;
+        margin:auto;
+     
+     }
+}

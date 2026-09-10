@@ -1,0 +1,293 @@
+*{
+
+    padding: 0;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+}
+
+.payel-main .background{
+
+    background-image: url(/user/images/school-history.jpeg);
+
+    background-size: cover;
+
+   
+
+}
+
+.payel-main .background .rgba{
+
+    background: rgba(0,0,0,0.7);
+
+}
+
+ .payel-main .background .rgba .heading{
+
+    padding:  8% 3%;
+
+    color: #fff;
+
+    font-size: 1.8vmax;
+
+    text-align: center;
+
+}
+.payel-main .background .rgba .heading h1{
+
+    font-family:   'Poppins', sans-serif !important;
+    
+}
+
+ /* ........................school_history.............................. */
+
+ .pare{
+    background-image: url(/user/images/overview_bg-abt.jpg);
+    /* background-size: cover; */
+ }
+ .payel-main .history-section{
+
+    /* justify-content: center; */
+
+    width: 100%;
+
+    height: auto;
+
+    /* padding: 48px 0px; */
+
+   
+
+ }
+
+.section-title{
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    /* text-align: center; */
+
+}
+
+.section-title h2{
+
+    text-transform: capitalize;
+
+    position: relative;
+
+    padding-bottom: 12px;
+
+    margin-bottom: 18px;
+
+    color: #505050;
+
+    font-family:   'Poppins', sans-serif !important;
+
+}
+
+.section-title h2 span{
+
+    font-weight: 700;
+
+    color: #1f507c;
+
+    font-family:   'Poppins', sans-serif !important;
+
+}
+
+.section-title h2::before{
+
+    position: absolute;
+
+    left: 50%;
+
+    content: "";
+
+    width: 100px;
+
+    height: 2px;
+
+    background: #666;
+
+    bottom: -1px;
+
+    margin-left: -50px;
+
+}
+
+.section-title h2::after{
+
+    position: absolute;
+
+    left: 50%;
+
+    content: "";
+
+    width: 100px;
+
+    height: 1.9px;
+
+    background: #666;
+
+    bottom: -6px;
+
+    margin-left: -63px;
+
+}
+
+.payel-main .history-section  .row1{
+
+    display: flex;
+
+    padding: 13px 0px;
+
+}
+.payel-main .history-section  .row2{
+
+    display: flex;
+
+    padding: 13px 0px;
+
+}
+
+.payel-main .history-section  .row1 .image{
+
+   width: 40%;
+
+}
+.payel-main .history-section  .row2 .image{
+
+    width: 40%;
+ 
+ }
+
+ .payel-main .history-section  .row1 .image .photo{
+
+    padding: 9px;
+
+}
+ 
+.payel-main .history-section  .row1 .image .photo img{
+
+   height: 100%;
+
+   width: 100%;
+
+   border-radius: 5px;
+
+   box-shadow: 2px 2px 5px rgb(139, 139, 139);
+
+
+}
+.payel-main .history-section  .row2 .image .photo{
+
+    padding: 9px;
+
+}
+.payel-main .history-section  .row2 .image .photo img{
+
+    height: 100%;
+ 
+    width: 100%;
+ 
+    border-radius: 5px;
+
+    box-shadow: 2px 2px 5px rgb(139, 139, 139);
+ 
+ }
+
+.payel-main .history-section  .row1 .para{
+
+    padding: 5px 10px;
+
+    width: 70%;
+
+}
+.payel-main .history-section  .row2 .para{
+
+    padding: 5px 10px;
+
+    width: 70%;
+
+}
+
+
+.payel-main .history-section  .row1 .para p{
+
+    font-size: 18px;
+
+    letter-spacing: 0.1px;
+
+    line-height:26px;
+
+    text-align: justify;
+
+    font-family:   'Poppins', sans-serif !important;
+
+    color: #6d6d6d;
+
+}
+.payel-main .history-section  .row2 .para p{
+
+    font-size: 18px;
+
+    letter-spacing: 0.1px;
+
+    line-height:26px;
+
+    text-align: justify;
+
+    font-family:   'Poppins', sans-serif !important;
+
+    color: #6d6d6d;
+
+}
+
+
+
+/* ..........................media_query............................ */
+
+@media screen and (max-width:1000px){
+
+   .payel-main .history-section .container .row1 {
+
+    display: flex;
+
+    flex-direction: column;
+
+   }
+  .payel-main .history-section .container .row1 .image{
+
+    width: 100%;
+
+   }
+
+   .payel-main .history-section .container .row1 .para{
+
+    width: 100%;
+
+   }
+   .payel-main .history-section .container .row2 {
+
+    display: flex;
+
+    flex-direction: column-reverse;
+
+   }
+  .payel-main .history-section .container .row2 .image{
+
+    width: 100%;
+
+   }
+
+   .payel-main .history-section .container .row2 .para{
+
+    width: 100%;
+
+   }
+
+}

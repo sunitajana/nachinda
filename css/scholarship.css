@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.scholarship-main .background{
+  background-image: url(/user/images/education-scholarship.jpg);
+  background-size: cover;
+ 
+}
+ .scholarship-main .background .rgba{
+  background: rgba(0,0,0,0.7);
+}
+.scholarship-main .background .rgba .heading{
+  padding:  8% 3%;
+  color: white;
+  font-size: 1.8vmax;
+  text-align: center;
+}
+.scholarship-main .background .rgba .heading h1{
+  font-family:  'Poppins', sans-serif !important;
+  font-weight:700;
+
+}
+.section-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+  }
+  .section-title h2{
+  text-transform: capitalize;
+  position: relative;
+  padding-bottom: 12px;
+  margin-bottom: 18px;
+  }
+  .section-title h2 span{
+  color: #1f507c;
+  }
+  .section-title h2::before{
+  position: absolute;
+  left: 50%;
+  content: "";
+  width: 100px;
+  height: 2px;
+  background: #666;
+  bottom: -1px;
+  margin-left: -50px;
+  }
+  .section-title h2::after{
+  position: absolute;
+  left: 50%;
+  content: "";
+  width: 100px;
+  height: 1.2px;
+  background: #666;
+  bottom: -6px;
+  margin-left: -63px;
+  }
+  /* .back_pho{ */
+    /* background-image: url(/user/images/gb-icons-bg.png); */
+    /* border: 1px solid red; */
+    /* background: #e8e8e8;
+  } */
+   .payel .container{
+    background: #e8e8e8;
+    
+   }
+   .payel1 .container .scholarship_section{
+    padding-bottom: 41px;
+   }
+   .payel1{
+    background: #e8e8e8;
+   }
+   /* .container{
+    background: #e8e8e8;
+   } */
+  /* .scholarship_section{
+    padding: 48px 0px;
+    
+  } */
+  /* .scholarship_section{
+    background: #e8e8e8;
+  } */
+
+  .scholarship_section .section_4{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-items: center; */
+    
+  }
+  .scholarship_section .section_4  .col_2{
+    margin:10px 21px;
+    width: 30%;
+    /* margin:auto; */
+    /* background-color: rgb(216, 211, 211); */
+    /* background-color: #cdcdcd; */
+    background-color: rgb(239, 239, 239);
+    text-align: center;
+    box-shadow: 0px 10px 25px -10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition:0.5s;
+    
+  }
+  .scholarship_section .section_4  .col_2:hover{
+    box-shadow: 0px 25px 50px -10px rgba(0, 0, 0, 0.5);
+  }
+  .scholarship_section .section_4 .col_2 .head{
+    padding: 20px;
+  }
+  .scholarship_section .section_4 .col_2 .head img{
+    /* height: 100%; */
+    width: 100%;
+   /* width: 359px; */
+   height: 232px;
+  }
+  .scholarship_section .section_4 .col_2 .para{
+    padding: 15px 20px ;
+  }
+  .scholarship_section .section_4 .col_2 .para p{
+    font-size: 17px;
+    letter-spacing: 0.1px;
+    line-height:26px;
+    padding: 15px 0px;
+  }
+  .scholarship_section .section_4 .col_2 .unique{
+  padding: 10px 0px;
+ }
+  
+ .scholarship_section .section_4 .col_2 .unique button{
+    border: none;
+    color: white;
+    padding: 12px 15px ;
+    /* background-color: rgb(10, 45, 172); */
+    background-color:  #135ca0;
+    border-radius: 10px;
+    border: none;
+  }
+  .scholarship_section .section_4 .col_2 .unique button:hover{
+    color: white;
+    /* background-color: #666; */
+    background-color:  #20496e;
+    transition: 0.5s;
+  }
+  .scholarship_section .section_4 .col_2 .para  h3{
+    color: #004788;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .scholarship_section .section_4 .col_2 .para p{
+    color: #6d6d6d;
+  }
+
+/* ...............................media_query............................... */
+@media(max-width:768px){
+  .scholarship_section .section_4  .col_2{
+    margin:10px 15px;
+    width: 45%;
+    /* margin:auto; */
+    /* background-color: rgb(216, 211, 211); */
+    /* background-color: #cdcdcd; */
+    background-color: rgb(239, 239, 239);
+    text-align: center;
+    box-shadow: 0px 10px 25px -10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+}
+@media(max-width:450px){
+  .scholarship_section .section_4  .col_2{
+    margin:10px 19px;
+    width: 90%;
+    /* margin:auto; */
+    /* background-color: rgb(216, 211, 211); */
+    /* background-color: #cdcdcd; */
+    background-color: rgb(239, 239, 239);
+    text-align: center;
+    box-shadow: 0px 10px 25px -10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+}
+  

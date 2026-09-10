@@ -1,0 +1,246 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+.main-mission-vission .main-mission-vission-inner .background{
+
+    background-image: url(/user/images/mission%26vission.jpg);
+
+    background-size: cover;
+
+   
+
+}
+
+.main-mission-vission .main-mission-vission-inner .background .rgba{
+
+    background: rgba(0,0,0,0.7);
+
+}
+
+.main-mission-vission .main-mission-vission-inner .background .rgba .heading{
+
+    padding:  8% 3%;
+
+    color: white;
+
+    font-size: 1.8vmax;
+
+    text-align: center;
+
+}
+.main-mission-vission .main-mission-vission-inner .background .rgba .heading h1{
+
+    font-family:  'Poppins', sans-serif !important;
+}
+
+.main-mission-vission .container .avi_vision{
+
+    font-family: 'Poppins', sans-serif !important;
+
+    background-image: url(images/price-bg.jpg);
+
+    background-attachment: fixed;
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    display: flex;
+
+   padding-bottom: 40px;
+}
+
+.main-mission-vission .container .avi_vision .avi_mission{
+
+    width: 50%;
+
+    /* padding: 0 20px; */
+
+}
+
+.main-mission-vission .container .avi_vision .avi_mission img{
+
+    width: 30vmax;
+
+}
+
+.main-mission-vission .container .avi_vision .avi_mission h2{
+
+    /* margin-top: 123px; */
+
+    font-weight: 700;
+
+    color: #1f507c;
+
+    font-family:  'Poppins', sans-serif !important;
+
+}
+
+.main-mission-vission .container .avi_vision .avi_mission .fon_mission_top_gap{
+
+    margin-top: 30px;
+
+}
+
+.main-mission-vission .container .avi_vision .avi_mission p{
+
+    font-size: 15px;
+
+    text-align: justify;
+
+    line-height: 2;
+
+    color: #6d6d6d;
+
+    font-family:  'Poppins', sans-serif !important;
+
+}
+
+.main-mission-vission .container .section-title{
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    /* text-align: center; */
+
+    margin: 0px 0px 19px 0px;
+
+}
+
+.main-mission-vission .container .section-title h2{
+
+    text-transform: capitalize;
+
+    position: relative;
+
+    padding-bottom: 12px;
+
+    margin-bottom: 18px;
+
+    color: #505050;
+
+    font-family:  'Poppins', sans-serif !important;
+
+}
+
+.main-mission-vission .container .section-title h2 span{
+
+    color: #1f507c;
+
+    font-family:  'Poppins', sans-serif !important;
+
+}
+
+.main-mission-vission .container .section-title h2::before{
+
+    position: absolute;
+
+    left: 50%;
+
+    content: "";
+
+    width: 100px;
+
+    height: 2px;
+
+    background: #666;
+
+    bottom: -1px;
+
+    margin-left: -50px;
+
+}
+
+.main-mission-vission .container .section-title h2::after{
+
+    position: absolute;
+
+    left: 50%;
+
+    content: "";
+
+    width: 100px;
+
+    height: 1.9px;
+
+    background: #666;
+
+    bottom: -6px;
+
+    margin-left: -63px;
+
+}
+@media only screen and (max-width: 600px){
+    .main-mission-vission .container .avi_vision{
+
+        font-family: 'Poppins', sans-serif !important;
+    
+        background-image: url(images/price-bg.jpg);
+    
+        background-attachment: fixed;
+    
+        background-size: cover;
+    
+        background-repeat: no-repeat;
+    
+        display: block;
+    
+       padding-bottom: 40px;
+    }
+
+    .main-mission-vission .container .avi_vision .avi_mission{
+
+        width: 50%;
+    
+        padding: 0 16px;
+    
+    }
+
+    .main-mission-vission .container .avi_vision .avi_mission img{
+
+        width: 364px;
+    
+    }
+
+    .main-mission-vission .container .avi_vision .avi_mission .mission_text{
+
+        width: 364px;
+    }
+
+    .main-mission-vission .container .avi_vision .avi_mission h2 {
+        margin-top: 5%;
+    }    
+}
+
+@media only screen and (max-width: 400px){
+
+    .main-mission-vission .container .avi_vision .avi_mission img{
+
+        width: 330px;
+    
+    }
+
+    .main-mission-vission .container .avi_vision .avi_mission .mission_text{
+
+        width: 330px;
+    }
+
+    .main-mission-vission .container .avi_vision .avi_mission h2 {
+        margin-top: 5%;
+    } 
+    .main-mission-vission .container .avi_vision .avi_mission{
+
+        width: 50%;
+    
+        padding: 0 5px;
+    
+    }   
+}
